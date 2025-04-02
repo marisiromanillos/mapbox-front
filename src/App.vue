@@ -1,13 +1,9 @@
 <script setup lang="ts">
 import MapBox from './components/MapBox.vue'
-import LocationPins from './components/LocationPins.vue'
 </script>
 
 <template>
-  <div class="">
-    <LocationPins />
-    <MapBox />
-  </div>
+  <MapBox />
 </template>
 
 <style scoped>
